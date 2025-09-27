@@ -1,0 +1,129 @@
+{
+  "query": "wrench, nut, hammer, screw",
+  "total_detections": 7,
+  "detections": [
+    {
+      "index": 1,
+      "label": "wrench, nut, hammer, screw",
+      "confidence": 0.7193835973739624,
+      "bbox": [
+        545.3198852539062,
+        120.67913818359375,
+        1023.5693969726562,
+        1014.6622924804688
+      ],
+      "cropped_image_path": "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0048_0_DINOX_CROPPED/wrench,_nut,_hammer,_screw_1_conf0.72.png",
+      "crop_size": [
+        489,
+        914
+      ]
+    },
+    {
+      "index": 2,
+      "label": "wrench, nut, hammer, screw",
+      "confidence": 0.7146279811859131,
+      "bbox": [
+        1.1583251953125,
+        209.22158813476562,
+        385.09002685546875,
+        897.443359375
+      ],
+      "cropped_image_path": "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0048_0_DINOX_CROPPED/wrench,_nut,_hammer,_screw_2_conf0.71.png",
+      "crop_size": [
+        395,
+        708
+      ]
+    },
+    {
+      "index": 3,
+      "label": "wrench, nut, hammer, screw",
+      "confidence": 0.40874865651130676,
+      "bbox": [
+        498.96270751953125,
+        445.6242980957031,
+        598.1422729492188,
+        517.9257202148438
+      ],
+      "cropped_image_path": "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0048_0_DINOX_CROPPED/wrench,_nut,_hammer,_screw_3_conf0.41.png",
+      "crop_size": [
+        120,
+        92
+      ]
+    },
+    {
+      "index": 4,
+      "label": "wrench, nut, hammer, screw",
+      "confidence": 0.3904758393764496,
+      "bbox": [
+        473.8321533203125,
+        494.5093078613281,
+        575.1572265625,
+        582.579833984375
+      ],
+      "cropped_image_path": "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0048_0_DINOX_CROPPED/wrench,_nut,_hammer,_screw_4_conf0.39.png",
+      "crop_size": [
+        122,
+        108
+      ]
+    },
+    {
+      "index": 5,
+      "label": "wrench, nut, hammer, screw",
+      "confidence": 0.3839877247810364,
+      "bbox": [
+        451.8464050292969,
+        360.56805419921875,
+        540.7001953125,
+        461.1063232421875
+      ],
+      "cropped_image_path": "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0048_0_DINOX_CROPPED/wrench,_nut,_hammer,_screw_5_conf0.38.png",
+      "crop_size": [
+        109,
+        121
+      ]
+    },
+    {
+      "index": 6,
+      "label": "wrench, nut, hammer, screw",
+      "confidence": 0.3647775650024414,
+      "bbox": [
+        429.6234436035156,
+        187.86038208007812,
+        490.1387023925781,
+        264.51068115234375
+      ],
+      "cropped_image_path": "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0048_0_DINOX_CROPPED/wrench,_nut,_hammer,_screw_6_conf0.36.png",
+      "crop_size": [
+        81,
+        97
+      ]
+    },
+    {
+      "index": 7,
+      "label": "wrench, nut, hammer, screw",
+      "confidence": 0.3557748794555664,
+      "bbox": [
+        351.62054443359375,
+        744.5292358398438,
+        493.04852294921875,
+        807.9901733398438
+      ],
+      "cropped_image_path": "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0048_0_DINOX_CROPPED/wrench,_nut,_hammer,_screw_7_conf0.36.png",
+      "crop_size": [
+        162,
+        83
+      ]
+    }
+  ],
+  "cropped_images": [
+    "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0048_0_DINOX_CROPPED/wrench,_nut,_hammer,_screw_1_conf0.72.png",
+    "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0048_0_DINOX_CROPPED/wrench,_nut,_hammer,_screw_2_conf0.71.png",
+    "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0048_0_DINOX_CROPPED/wrench,_nut,_hammer,_screw_3_conf0.41.png",
+    "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0048_0_DINOX_CROPPED/wrench,_nut,_hammer,_screw_4_conf0.39.png",
+    "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0048_0_DINOX_CROPPED/wrench,_nut,_hammer,_screw_5_conf0.38.png",
+    "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0048_0_DINOX_CROPPED/wrench,_nut,_hammer,_screw_6_conf0.36.png",
+    "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0048_0_DINOX_CROPPED/wrench,_nut,_hammer,_screw_7_conf0.36.png"
+  ],
+  "save_directory": "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0048_0_DINOX_CROPPED",
+  "original_image": "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0048_0.png"
+}

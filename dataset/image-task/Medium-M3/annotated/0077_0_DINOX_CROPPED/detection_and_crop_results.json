@@ -1,0 +1,27 @@
+{
+  "query": "digital scale",
+  "total_detections": 1,
+  "detections": [
+    {
+      "index": 1,
+      "label": "digital scale",
+      "confidence": 0.7620701193809509,
+      "bbox": [
+        0.68658447265625,
+        62.552764892578125,
+        532.37939453125,
+        783.64013671875
+      ],
+      "cropped_image_path": "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0077_0_DINOX_CROPPED/digital_scale_1_conf0.76.png",
+      "crop_size": [
+        542,
+        741
+      ]
+    }
+  ],
+  "cropped_images": [
+    "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0077_0_DINOX_CROPPED/digital_scale_1_conf0.76.png"
+  ],
+  "save_directory": "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0077_0_DINOX_CROPPED",
+  "original_image": "/hpc2hdd/home/zzhang300/zixin_workspace/Benchmark/ToolBench/dataset/images/Medium-M3/annotated/0077_0.png"
+}

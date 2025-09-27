@@ -1,0 +1,1130 @@
+[
+    {
+        "id": "0001",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0001_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to remove a rusty screw. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If therye is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to remove a rusty screw. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0002",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0002_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to temporarily and safely fix a piece of wire to the wall. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to temporarily and safely fix a piece of wire to the wall. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0003",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0003_0.png",
+        "correct_tool": "1, 2, 5",
+        "cot_prompt": "I need to repaint an old chair and make its surface smooth. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to repaint an old chair and make its surface smooth. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0004",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0004_0.png",
+        "correct_tool": "1, 4",
+        "cot_prompt": "I need to replace an outlet panel without cutting off the power. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to replace an outlet panel without cutting off the power. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0005",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0005_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to replace a flat tire on a car so it can drive normally. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to replace a flat tire on a car so it can drive normally. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0006",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0006_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to install a heavy-duty shelf on the wall. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to install a heavy-duty shelf on the wall. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0007",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0007_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to paint a wall. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to paint a wall. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0008",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0008_0.png",
+        "correct_tool": "1, 2, 3, 7",
+        "cot_prompt": "I need to waterproof the floor of a bathroom. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to waterproof the floor of a bathroom. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0009",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0009_0.png",
+        "correct_tool": "1, 3",
+        "cot_prompt": "I need to remove stubborn glue marks from the surface of an old table. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to remove stubborn glue marks from the surface of an old table. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0010",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0010_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to re-solder a loose resistor on a circuit board. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to re-solder a loose resistor on a circuit board. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0011",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0011_0.png",
+        "correct_tool": "5, 6",
+        "cot_prompt": "I need to carve on a piece of wood. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to carve on a piece of wood. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0012",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0012_0.png",
+        "correct_tool": "2, 3, 4, 5, 7",
+        "cot_prompt": "I need to replace a damaged capacitor on a circuit board. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to replace a damaged capacitor on a circuit board. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0013",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0013_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to cut a piece of wood to size. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to cut a piece of wood to size. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0014",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0014_0.png",
+        "correct_tool": "2, 3, 4",
+        "cot_prompt": "I need to cut a thick piece of cardstock. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to cut a thick piece of cardstock. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0015",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0015_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to clean rusty tools. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to clean rusty tools. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0016",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0016_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to inflate a bicycle tire. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to inflate a bicycle tire. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0017",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0017_0.png",
+        "correct_tool": "2, 5, 1",
+        "cot_prompt": "I need to cut a metal pipe to a specified length. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to cut a metal pipe to a specified length. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0018",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0018_0.png",
+        "correct_tool": "1, 2, 3, 4, 5",
+        "cot_prompt": "I need to apply new wallpaper to a wall. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to apply new wallpaper to a wall. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0019",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0019_0.png",
+        "correct_tool": "1, 2, 5",
+        "cot_prompt": "I need to wax a car. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to wax a car. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0020",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0020_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to inflate a tire to the standard pressure. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to inflate a tire to the standard pressure. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0021",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0021_0.png",
+        "correct_tool": "2, 4",
+        "cot_prompt": "I need to pry open a laptop without damaging it. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to pry open a laptop without damaging it. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing &- Repair"
+    },
+    {
+        "id": "0022",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0022_0.png",
+        "correct_tool": "1, 3",
+        "cot_prompt": "I need to thoroughly clean a dusty desktop computer. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to thoroughly clean a dusty desktop computer. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0023",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0023_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to check a narrow, poorly lit corner of the car's engine bay for oil leaks. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to check a narrow, poorly lit corner of the car's engine bay for oil leaks. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0024",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0024_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to draw a horizontal line on the wall to install a row of tool hooks. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to draw a horizontal line on the wall to install a row of tool hooks. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0025",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0025_0.png",
+        "correct_tool": "2, 1",
+        "cot_prompt": "I need to cut a mortise in a piece of wood. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to cut a mortise in a piece of wood. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0026",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0026_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to tap threads in a drilled hole. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to tap threads in a drilled hole. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0027",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0027_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to remove an old sticker from a toolbox. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to remove an old sticker from a toolbox. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0028",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0028_0.png",
+        "correct_tool": "3, 1",
+        "cot_prompt": "I need to transfer oil from a large oil drum to a small oil can. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to transfer oil from a large oil drum to a small oil can. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Manufacturing & Repair"
+    },
+    {
+        "id": "0029",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0029_0.png",
+        "correct_tool": "1, 3, 2",
+        "cot_prompt": "I need to mend a hole in a piece of clothing. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to mend a hole in a piece of clothing. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0030",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0030_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to cut a piece of fabric to a specified length. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to cut a piece of fabric to a specified length. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0031",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0031_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to turn on the TV. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to turn on the TV. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily life"
+    },
+    {
+        "id": "0032",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0032_0.png",
+        "correct_tool": "1, 2, 3, 4",
+        "cot_prompt": "I need to slice fresh fish and store it for freshness. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to slice fresh fish and store it for freshness. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0033",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0033_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to thoroughly clean the living room floor. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to thoroughly clean the living room floor. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0034",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0034_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to organize clutter in the study and store it by category. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to organize clutter in the study and store it by category. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0035",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0035_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to wash a batch of dirty clothes. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to wash a batch of dirty clothes. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0036",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0036_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to iron a wrinkled shirt. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to iron a wrinkled shirt. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0037",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0037_0.png",
+        "correct_tool": "1, 2, 9",
+        "cot_prompt": "I need to make a cup of clean, fresh orange juice. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to make a cup of clean, fresh orange juice. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0038",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0038_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to heat up leftovers. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to heat up leftovers. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0039",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0039_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to replace the batteries in a smart door lock. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to replace the batteries in a smart door lock. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0040",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0040_0.png",
+        "correct_tool": "1, 2, 3, 4",
+        "cot_prompt": "I need to eat 100 grams of rice. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to eat 100 grams of rice. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0041",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0041_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need a place to throw away trash. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need a place to throw away trash. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0042",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0042_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to give a child a bath. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to give a child a bath. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0043",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0043_0.png",
+        "correct_tool": "1, 2, 3, 4",
+        "cot_prompt": "I need to make a plate of peeled apple slices. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to make a plate of peeled apple slices. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0044",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0044_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to pack leftovers. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to pack leftovers. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0045",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0045_0.png",
+        "correct_tool": "1, 3, 2",
+        "cot_prompt": "I need to open a can and arrange it on a plate. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to open a can and arrange it on a plate. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0046",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0046_0.png",
+        "correct_tool": "1, 2, 3, 4",
+        "cot_prompt": "I need to make a cup of instant coffee. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to make a cup of instant coffee. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0047",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0047_0.png",
+        "correct_tool": "1, 3, 4",
+        "cot_prompt": "I need to operate a desktop computer to edit a document. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to operate a desktop computer to edit a document. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0048",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0048_0.png",
+        "correct_tool": "2, 4",
+        "cot_prompt": "I need to whip cream. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to whip cream. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0049",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0049_0.png",
+        "correct_tool": "1, 5, 6, 7",
+        "cot_prompt": "I need to wrap a gift. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to wrap a gift. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0050",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0050_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to sew a button on a shirt. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to sew a button on a shirt. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0051",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0051_0.png",
+        "correct_tool": "3, 4",
+        "cot_prompt": "I need to make a precise straight cut on cardboard. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to make a precise straight cut on cardboard. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0052",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0052_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to treat a small cut on a finger. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to treat a small cut on a finger. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0053",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0053_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to go out on a rainy day and stay dry. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to go out on a rainy day and stay dry. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily life"
+    },
+    {
+        "id": "0054",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0054_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to go out in the hot sun. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to go out in the hot sun. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily life"
+    },
+    {
+        "id": "0055",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0055_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to take a child swimming and keep him safe. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to take a child swimming and keep him safe. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily life"
+    },
+    {
+        "id": "0056",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0056_0.png",
+        "correct_tool": "1, 2, 3, 4",
+        "cot_prompt": "I need to teach a child how to mix colors while painting. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to teach a child how to mix colors while painting. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily life"
+    },
+    {
+        "id": "0057",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0057_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to record a video. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to record a video. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily life"
+    },
+    {
+        "id": "0058",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0058_0.png",
+        "correct_tool": "2, 7, 3, 4",
+        "cot_prompt": "I need to bake a tray of cookies. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to bake a tray of cookies. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0059",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0059_0.png",
+        "correct_tool": "1, 2, 3, 6",
+        "cot_prompt": "I need to fry an egg. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to fry an egg. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0060",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0060_0.png",
+        "correct_tool": "1, 2, 7",
+        "cot_prompt": "I need to chop some vegetables into small pieces. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to chop some vegetables into small pieces. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0061",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0061_0.png",
+        "correct_tool": "1, 2, 6, 4",
+        "cot_prompt": "I need to make a banana smoothie. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to make a banana smoothie. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0062",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0062_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to make a plate of french fries. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to make a plate of french fries. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily life"
+    },
+    {
+        "id": "0063",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0063_0.png",
+        "correct_tool": "1, 2, 3, 4",
+        "cot_prompt": "I need to roll out a dumpling wrapper. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to roll out a dumpling wrapper. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily life"
+    },
+    {
+        "id": "0064",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0064_0.png",
+        "correct_tool": "2, 1, 3",
+        "cot_prompt": "I need to get a plate of shredded carrots. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to get a plate of shredded carrots. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily life"
+    },
+    {
+        "id": "0065",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0065_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to make some ice cubes. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to make some ice cubes. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily life"
+    },
+    {
+        "id": "0066",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0066_0.png",
+        "correct_tool": "6, 1, 2",
+        "cot_prompt": "I need to give a guest a glass of beer. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to give a guest a glass of beer. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily life"
+    },
+    {
+        "id": "0067",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0067_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to help a child brush their teeth. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to help a child brush their teeth. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily life"
+    },
+    {
+        "id": "0068",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0068_0.png",
+        "correct_tool": "1, 6, 2, 3",
+        "cot_prompt": "I need to sort and organize clothes by category. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to sort and organize clothes by category. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily life"
+    },
+    {
+        "id": "0069",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0069_0.png",
+        "correct_tool": "3, 4, 1",
+        "cot_prompt": "I need to iron a silk shirt. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to iron a silk shirt. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily life"
+    },
+    {
+        "id": "0070",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0070_0.png",
+        "correct_tool": "2, 6",
+        "cot_prompt": "I need to clean the dust in the crevices of the sofa and refrigerator. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to clean the dust in the crevices of the sofa and refrigerator. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily life"
+    },
+    {
+        "id": "0071",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0071_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to organize and store some books during the rainy season. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to organize and store some books during the rainy season. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily life"
+    },
+    {
+        "id": "0072",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0072_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to connect a monitor to a laptop. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to connect a monitor to a laptop. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0073",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0073_0.png",
+        "correct_tool": "2, 3, 4",
+        "cot_prompt": "I need to use a desktop computer to complete work. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to use a desktop computer to complete work. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0074",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0074_0.png",
+        "correct_tool": "1, 2, 4",
+        "cot_prompt": "I need to charge an iPhone 15. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to charge an iPhone 15. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0075",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0075_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to stick a notice on the wall. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to stick a notice on the wall. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0076",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0076_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to print a color report. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to print a color report. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0077",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0077_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to repair a broken wire fence. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to repair a broken wire fence. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0078",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0078_0.png",
+        "correct_tool": "1, 2, 5",
+        "cot_prompt": "I need to plant vegetables in the field and water them. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to plant vegetables in the field and water them. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0079",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0079_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to loosen the soil, water, and fertilize a potted plant. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to loosen the soil, water, and fertilize a potted plant. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0080",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0080_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to photograph distant animals in the wild. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to photograph distant animals in the wild. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0081",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0081_0.png",
+        "correct_tool": "1, 3",
+        "cot_prompt": "I need to shoot a starry sky time-lapse in the wild. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to shoot a starry sky time-lapse in the wild. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0082",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0082_0.png",
+        "correct_tool": "1, 3",
+        "cot_prompt": "I need to shoot a portrait in a backlit environment outdoors. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to shoot a portrait in a backlit environment outdoors. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0083",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0083_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to set up a tent on the grass. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to set up a tent on the grass. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0084",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0084_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to have an outdoor barbecue. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to have an outdoor barbecue. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0085",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0085_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to go fishing. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to go fishing. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0086",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0086_0.png",
+        "correct_tool": "2, 3",
+        "cot_prompt": "I need to find your way in the forest. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to find your way in the forest. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0087",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0087_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to charge a phone in the wild without a power source. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to charge a phone in the wild without a power source. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0088",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0088_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to change a flat tire. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to change a flat tire. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0089",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0089_0.png",
+        "correct_tool": "2, 3, 4",
+        "cot_prompt": "I need to plant new flowers and water them. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to plant new flowers and water them. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0090",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0090_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to sweep up the accumulated fallen leaves and dust on the balcony. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to sweep up the accumulated fallen leaves and dust on the balcony. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0091",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0091_0.png",
+        "correct_tool": "1, 3, 4",
+        "cot_prompt": "I need to charge an Apple Watch. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to charge an Apple Watch. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Daily Life"
+    },
+    {
+        "id": "0092",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0092_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I want to prepare a wading pool for the kids on the patio in the summer. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I want to prepare a wading pool for the kids on the patio in the summer. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0093",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0093_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to provide iced drinks for a party on a hot day. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to provide iced drinks for a party on a hot day. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0094",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0094_0.png",
+        "correct_tool": "1, 2, 3, 4",
+        "cot_prompt": "I want to make a grilled butter corn dish. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I want to make a grilled butter corn dish. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0095",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0095_0.png",
+        "correct_tool": "4, 1, 2, 3",
+        "cot_prompt": "I need to make vegetable and meat skewers for a barbecue. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to make vegetable and meat skewers for a barbecue. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0096",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0096_0.png",
+        "correct_tool": "1, 2, 3, 4",
+        "cot_prompt": "I need to prepare meat skewers for a barbecue. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to prepare meat skewers for a barbecue. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0097",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0097_0.png",
+        "correct_tool": "1, 2, 3, 4, 5",
+        "cot_prompt": "I need to make iced Coke for friends. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to make iced Coke for friends. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0098",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0098_0.png",
+        "correct_tool": "1, 2, 3, 4, 5, 6, 7",
+        "cot_prompt": "I need to prepare a refreshing vegetable salad as a side dish. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to prepare a refreshing vegetable salad as a side dish. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Dctivities"
+    },
+    {
+        "id": "0099",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0099_0.png",
+        "correct_tool": "1, 2, 3, 4",
+        "cot_prompt": "I need to quickly replenish energy and electrolytes for someone who is sweating a lot. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to quickly replenish energy and electrolytes for someone who is sweating a lot. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0100",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0100_0.png",
+        "correct_tool": "1, 4, 2",
+        "cot_prompt": "I need to start a fire for warmth in an emergency. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to start a fire for warmth in an emergency. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0101",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0101_0.png",
+        "correct_tool": "1, 2, 4",
+        "cot_prompt": "I need to clean the just-used grill to prepare for the next barbecue while keep my hands clean. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to clean the just-used grill to prepare for the next barbecue while keep my hands clean. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0102",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0102_0.png",
+        "correct_tool": "2, 1, 3, 5",
+        "cot_prompt": "I need to prepare a bowl of vegetable ingredients before grilling. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to prepare a bowl of vegetable ingredients before grilling. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0103",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0103_0.png",
+        "correct_tool": "1, 2, 3, 6, 7, 8",
+        "cot_prompt": "I want to make refreshing Mojito cocktails for friends. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I want to make refreshing Mojito cocktails for friends. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0104",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0104_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to have fire extinguishing equipment ready next to the grill to prevent charcoal fires. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to have fire extinguishing equipment ready next to the grill to prevent charcoal fires. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0105",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0105_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I want to make a grilled butter enoki mushroom dish. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I want to make a grilled butter enoki mushroom dish. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0106",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0106_0.png",
+        "correct_tool": "2, 3, 4",
+        "cot_prompt": "I need to prepare a salad for later use outdoors on a hot day with many mosquitoes and flies. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to prepare a salad for later use outdoors on a hot day with many mosquitoes and flies. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Outdoor Activities"
+    },
+    {
+        "id": "0107",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0107_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to disinfect and bandage a small cut on a finger. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to disinfect and bandage a small cut on a finger. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0108",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0108_0.png",
+        "correct_tool": "1, 2, 3, 4",
+        "cot_prompt": "I need to filter a mixed solution in the lab. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to filter a mixed solution in the lab. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0109",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0109_0.png",
+        "correct_tool": "1, 2, 4, 5, 3",
+        "cot_prompt": "I need to apply thick paint and mix colors for an oil painting. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to apply thick paint and mix colors for an oil painting. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0110",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0110_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to tune the equipment for a band performance. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to tune the equipment for a band performance. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0111",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0111_0.png",
+        "correct_tool": "1, 2, 3, 4",
+        "cot_prompt": "I need to prepare a constant temperature solution in the lab. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to prepare a constant temperature solution in the lab. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0112",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0112_0.png",
+        "correct_tool": "1, 3, 4, 7, 8",
+        "cot_prompt": "I need to shoot a long-exposure panoramic photo of a city night scene. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to shoot a long-exposure panoramic photo of a city night scene. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0113",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0113_0.png",
+        "correct_tool": "1, 6, 7, 8",
+        "cot_prompt": "I need to shoot a portrait in a low-light indoor environment. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to shoot a portrait in a low-light indoor environment. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0114",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0114_0.png",
+        "correct_tool": "1, 2, 3, 4, 5, 7",
+        "cot_prompt": "I need to make a cup of latte art coffee. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to make a cup of latte art coffee. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0115",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0115_0.png",
+        "correct_tool": "1, 2, 3, 4",
+        "cot_prompt": "I need to observe a cell sample. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to observe a cell sample. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0116",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0116_0.png",
+        "correct_tool": "3, 4, 6",
+        "cot_prompt": "I need to perform a basic physical examination for a patient. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to perform a basic physical examination for a patient. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0117",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0117_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to inject medication for a patient. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to inject medication for a patient. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0118",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0118_0.png",
+        "correct_tool": "1, 2, 3, 4, 5",
+        "cot_prompt": "I need to perform a surgical excision. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to perform a surgical excision. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0119",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0119_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to provide nebulizer treatment for a patient with a respiratory disease. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to provide nebulizer treatment for a patient with a respiratory disease. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0120",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0120_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to shoot a slow-shutter effect of a stream during the day. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to shoot a slow-shutter effect of a stream during the day. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0121",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0121_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to draw a geometric figure on the blackboard. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to draw a geometric figure on the blackboard. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0122",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0122_0.png",
+        "correct_tool": "1, 3",
+        "cot_prompt": "I need to dig unearthed artifacts at an archaeological site. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to dig unearthed artifacts at an archaeological site. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0123",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0123_0.png",
+        "correct_tool": "2, 3",
+        "cot_prompt": "I need to count a large amount of cash and bundle it. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to count a large amount of cash and bundle it. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0124",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0124_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to connect to a water source to extinguish a fire. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to connect to a water source to extinguish a fire. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0125",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0125_0.png",
+        "correct_tool": "1, 3, 4, 5",
+        "cot_prompt": "I need to observe onion epidermal cells. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to observe onion epidermal cells. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0126",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0126_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to accurately weigh chemical reagents. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to accurately weigh chemical reagents. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0127",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0127_0.png",
+        "correct_tool": "2, 3, 6",
+        "cot_prompt": "I need to solder a circuit component. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to solder a circuit component. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0128",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0128_0.png",
+        "correct_tool": "1, 2, 3, 5",
+        "cot_prompt": "I need to perform an acid-base titration experiment. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to perform an acid-base titration experiment. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0129",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0129_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to give a patient an intramuscular injection. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to give a patient an intramuscular injection. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0130",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0130_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to draw a tangent circle and a straight line on paper. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to draw a tangent circle and a straight line on paper. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0131",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0131_0.png",
+        "correct_tool": "1, 2, 3, 6, 7",
+        "cot_prompt": "I need to heat a liquid. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to heat a liquid. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0132",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0132_0.png",
+        "correct_tool": "1, 3, 4",
+        "cot_prompt": "I need to measure the mass of a small block. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to measure the mass of a small block. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0133",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0133_0.png",
+        "correct_tool": "1, 2, 3, 4, 5",
+        "cot_prompt": "I need to investigate the relationship between elastic force and spring extension. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to investigate the relationship between elastic force and spring extension. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0134",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0134_0.png",
+        "correct_tool": "1, 2, 3, 4",
+        "cot_prompt": "I need to investigate the image formation rules of a convex lens. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to investigate the image formation rules of a convex lens. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0135",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0135_0.png",
+        "correct_tool": "3, 4",
+        "cot_prompt": "I need to clean a camera lens. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to clean a camera lens. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0136",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0136_0.png",
+        "correct_tool": "2, 3",
+        "cot_prompt": "I need to connect a monitor to a computer with only a Type-C port. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to connect a monitor to a computer with only a Type-C port. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0137",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0137_0.png",
+        "correct_tool": "2, 3",
+        "cot_prompt": "I want to set up an external storage device for my laptop, which only has a Type-C port. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I want to set up an external storage device for my laptop, which only has a Type-C port. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0138",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0138_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I want to set up an external storage device for my desktop computer. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I want to set up an external storage device for my desktop computer. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0139",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0139_0.png",
+        "correct_tool": "1, 4",
+        "cot_prompt": "I need to quickly charge a MacBook. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to quickly charge a MacBook. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0140",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0140_0.png",
+        "correct_tool": "1, 2, 3",
+        "cot_prompt": "I need to set up a platform that can wirelessly charge my phone, headphones, and watch.. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to set up a platform that can wirelessly charge my phone, headphones, and watch.. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    },
+    {
+        "id": "0141",
+        "image_path": "./dataset/image-task/Medium-M2/annotated/0141_0.png",
+        "correct_tool": "1, 2",
+        "cot_prompt": "I need to read the contents of an SD card, but my computer cannot read it directly.. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, answer the number of the object. If not, answer \"None\". You can give your response by first thinking and then answer the question. The response should be in the following format:\n```\n### Thinking Process\nPut the thinking process in here.\n### Answer\n1, 2, 3, 4, 5, 6, ... or \"None\"\n```",
+        "no_cot_prompt": "I need to read the contents of an SD card, but my computer cannot read it directly.. Which tool(s)/object(s) should I use?\nNoted that the objects in the image are the only available things to do the task. If there is/are objects you can use, directly answer the number of the object(e.g. 1, 2, 3, 4, 5, 6, ...). If not, answer \"None\". Your answer should either be a single number, or a list of numbers separated by commas, or 'None'.",
+        "category": "Professional Scene"
+    }
+]
